@@ -1,0 +1,37 @@
+@import "../../common/colors.scss";
+.footer {
+  background: grey;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $font-primary;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.search-bar{
+  width: 100%;
+  text-align: center;
+}
+.input{
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.fa-search{
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  background: black;
+}
+button{
+  border: none;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
